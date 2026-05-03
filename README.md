@@ -24,7 +24,7 @@ A modular, workspace-driven Terraform project that provisions a production-style
 │  │  │   Group]    │      │      │      │        │   │
 │  │  └──────┬──────┘      └──────┬──────┘        │   │
 │  │         │                    │               │   │
-│  │    [Internet Gateway]        │               │   │
+│  │    [Internet Gateway]────────┘               │   │
 │  └─────────┼────────────────────────────────────┘   │
 │            │                                        │
 └────────────┼────────────────────────────────────────┘
