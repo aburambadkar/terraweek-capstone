@@ -1,0 +1,20 @@
+# Terraform working directory
+.terraform/
+.terraform.lock.hcl
+
+# Local state (using S3 remote backend — these should never be committed)
+*.tfstate
+*.tfstate.backup
+terraform.tfstate.d/
+
+# Variable files may contain sensitive values — exclude from version control
+# (env/*.tfvars are intentionally tracked in this project as they contain no secrets)
+*.auto.tfvars
+
+# macOS
+.DS_Store
+
+# Editor
+.idea/
+.vscode/
+*.swp
