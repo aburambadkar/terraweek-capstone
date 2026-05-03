@@ -22,7 +22,7 @@ ssh_ingress_rules = [
     to_port     = 22
     protocol    = "tcp"
     cidr_blocks = ["8.8.8.8/32"]
-    description = "Allow SSH from VPN / bastion IP — update before apply"
+    description = "Allow SSH from admin IP"
   }
 ]
 

@@ -209,4 +209,4 @@ ssh -i ~/.ssh/akshada-terraweek-capstone.pem ec2-user@<ec2_public_ip>
 |---------|-----|---------|------|
 | VPC CIDR | `10.0.0.0/16` | `10.1.0.0/16` | `10.2.0.0/16` |
 | Instance type | `t3.micro` | `t3.small` | `t3.medium` |
-| SSH access | Admin IP | Admin IP | VPN/bastion IP |
+| SSH access | Admin IP | Admin IP | Admin IP |
